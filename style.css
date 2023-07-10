@@ -56,11 +56,64 @@
     align-items: center;
     margin-top: 150px;
     height: 300px;
-    margin:0 auto;
+    margin: 0 auto;
     width: 1100px;
     justify-content: space-around;
 
 }
-.support-img{
+
+.support-img {
     align-items: center;
+}
+
+.hot-deal-container {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1600px;
+    height: 400px;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.hot-deal-buttom {
+    background: #e55473;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+
+
+.Instagram {
+    text-align: center;
+
+}
+
+.instagram-container {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 40px;
+    width: 340px;
+    height: 390px;
+    gap: 15px;
+    margin-bottom: 70px;
+}
+
+.input-containe {
+    background-image: url(Flowers/Rectangle\ 9.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: 70px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.input-email {
+    width: 500px;
+    height: 40px;
+    
 }
