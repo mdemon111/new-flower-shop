@@ -1,5 +1,6 @@
+
 .header {
-    width: 1600px;
+    width: auto;
     display: flex;
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
@@ -46,7 +47,21 @@
     text-align: center;
     color: rgb(48, 55, 42);
     margin: auto;
+}
 
+
+/* price section */
+.folwer-text{
+    display: flex;justify-content: space-around;
+}
+.price-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.price-image img{
+    width: 300px;
 }
 
 .support-container {
@@ -70,7 +85,7 @@
     display: flex;
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.05);
-    width: 1600px;
+    width: auto;
     height: 400px;
     align-items: center;
     margin-top: 150px;
@@ -110,6 +125,7 @@
     margin: 0 auto;
     margin-left: 200px;
     margin-right: 150px;
+    padding: 30px;
 }
 
 .input-email {
@@ -117,3 +133,21 @@
     height: 40px;
     
 }
+
+.footer-container{
+    background-color: #272727;
+    color: white;
+   text-align: center;
+   height: 300px;
+   width: auto;
+   margin-top: 70px;
+   padding: 40px;
+}
+
+
+
+.folwer-span{
+    color: #e55473;
+}
+
+
