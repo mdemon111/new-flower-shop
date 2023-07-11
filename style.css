@@ -57,7 +57,7 @@
 .price-container{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 70px;
 }
 
 .price-image img{
